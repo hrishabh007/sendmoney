@@ -52,7 +52,7 @@ test/
 ### 🔧 Installation
 
 ```bash
-git clone https://github.com/rishabh-balani/send-money-app.git
+git clone https://github.com/hrishabh007/sendmoney.git
 cd send-money-app
 flutter pub get
 flutter run
