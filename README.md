@@ -29,13 +29,14 @@ lib/
 │   └── wallet/
 │       ├── data/
 │       ├── domain/
-│       ├── presentation/
+│       └── presentation/
 │           ├── bloc/
 │           ├── pages/
 │           └── widgets/
+├── main.dart
+
 test/
-├── widget_test.dart
-main.dart
+└── widget_test.dart
 
 
 ---
