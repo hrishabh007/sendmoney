@@ -1,16 +1,64 @@
-# sendmoney
+# 💸 Send Money App
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-v3.x-blue)](https://flutter.dev)
+[![BLoC](https://img.shields.io/badge/BLoC-State%20Management-green)](https://pub.dev/packages/flutter_bloc)
+[![Tests](https://img.shields.io/badge/Tests-100%25%20Pass-brightgreen)](#)
 
-## Getting Started
+A clean and lightweight **Flutter app** demonstrating a simple offline-first money transfer workflow.
 
-This project is a starting point for a Flutter application.
+This is a coding exercise that showcases:
+- Clean Architecture (Presentation, Domain, Data)
+- BLoC pattern for state management
+- Unit and widget testing using `mocktail` and `flutter_test`
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 App Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 💼 Wallet Page (Balance Display, Hide/Show toggle)
+- 💸 Send Money Page (Amount input with success/error bottom sheet)
+- 📃 Transactions Page (Transaction history with loading/error states)
+
+---
+
+## 🏗️ Folder Structure
+
+lib/
+├── core/
+├── features/
+│   └── wallet/
+│       ├── data/
+│       ├── domain/
+│       ├── presentation/
+│           ├── bloc/
+│           ├── pages/
+│           └── widgets/
+test/
+├── widget_test.dart
+main.dart
+
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+- Flutter SDK (v3.10+ recommended)
+- Dart (comes with Flutter)
+- Android Studio / VS Code or any IDE of your choice
+
+### 🔧 Installation
+
+```bash
+git clone https://github.com/rishabh-balani/send-money-app.git
+cd send-money-app
+flutter pub get
+flutter run
+
+##  Running Tests
+flutter test
+
+🙋‍♂️ Author
+
+Made with ❤️ by Rishabh Balani
